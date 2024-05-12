@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body{
+  min-height: 100vh;
+  font-family: "poppins", sans-serif;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title{
+  font-size: 3rem;
+  margin: 6vh;
+  padding: 5vw;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.card{
+  width: 400px;
+  height: max-content;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image{
+  width: 380px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.tour-info{
+  margin:20px 5px;
+}
+.tour-prise{
+  color: aquamarine;
+  font-size: 1.3rem;
+}
+.tour-name{
+  font-size: 1.2rem;
+}
+.read-more{
+ color: blueviolet;
+ cursor: pointer;
+}
+
+.btn-red{
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid red;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(231, 214, 27);
+}
+.btn-red:hover{
+  background-color: rgb(244, 14, 14);
+  color: beige;
+  transition: all 0.2s;
+}
